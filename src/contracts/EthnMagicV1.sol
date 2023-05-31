@@ -5,7 +5,7 @@ import "./ERC721.sol";
 import "./ERC721Enumerable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract EthnMagic is ERC721Enumerable, Ownable {
+contract EthnMagicV1 is ERC721Enumerable, Ownable {
     using Strings for uint256;
     mapping(string => uint8) existingURIs;
     mapping(uint256 => address) public holderOf;
@@ -20,6 +20,12 @@ contract EthnMagic is ERC721Enumerable, Ownable {
         uint256 id,
         address indexed owner,
         uint256 price,
+        string metadataURI,
+        uint256 timestamp
+    );
+
+    event Deletion(
+        uint256 id,
         string metadataURI,
         uint256 timestamp
     );
@@ -129,6 +135,18 @@ contract EthnMagic is ERC721Enumerable, Ownable {
         minted[id - 1].price = newPrice;
         return true;
     }
+
+    function deleteNFT(uint256 id) external {
+        require(msg.sender == minted[id - 1].owner, "Unauthorized");
+        string memory metadataURI = minted[id - 1].metadataURI;
+
+        delete minted[id - 1];
+        existingURIs[metadataURI] = 0;
+
+        emit Deletion(id, metadataURI, block.timestamp);
+    }
+
+
 
     function payTo(address to, uint256 amount) internal {
         (bool success, ) = payable(to).call{value: amount}("");

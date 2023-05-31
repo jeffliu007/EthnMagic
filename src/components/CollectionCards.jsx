@@ -1,5 +1,6 @@
 import sappySeal from "../assets/sappySeal.png";
 import { useGlobalState, setGlobalState } from "../store";
+import { deleteNFT } from "../Blockchain.services";
 
 const CollectionCards = ({ allMyNFTs }) => {
   // const randomPriceGenerator = () => {

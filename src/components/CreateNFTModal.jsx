@@ -83,7 +83,7 @@ const CreateNFTModal = () => {
 
   return (
     <div
-      className={`flex items-center justify-center fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50 transform transition-transform duration 280 ${modal}`}
+      className={`flex items-center justify-center fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50 z-100 transform transition-transform duration 280 ${modal}`}
     >
       <div
         className="bg-[#1d1d1d] shadow-lg shadow-[#1e1a2b] rounded-md w-11/12 lg:w-8/12 md:w-1q/12 h-7/12 p-7

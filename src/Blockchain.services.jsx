@@ -6,7 +6,7 @@ import {
   setTxStatus,
   getGlobalState,
 } from "./store";
-import abi from "./abis/EthnMagic.json";
+import abi from "./abis/EthnMagicV1.json";
 
 const { ethereum } = window;
 
@@ -110,5 +110,17 @@ export const getAllNFTS = async () => {
     setGlobalState("transactions", transactions);
   } catch (err) {
     reportError(err);
+  }
+};
+
+export const deleteNFT = async (id) => {
+  try {
+    const contract = await getEthereumContract();
+    const account = getGlobalState("connectedAccount");
+
+    await contract.methods.deleteNFT(id).send({ from: account });
+    return true;
+  } catch (error) {
+    console.log(error);
   }
 };

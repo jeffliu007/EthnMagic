@@ -14731,10 +14731,10 @@
         747
       ],
       "IERC721": [
-        3430
+        3486
       ],
       "IERC721Metadata": [
-        3488
+        3544
       ],
       "IERC721Receiver": [
         130
@@ -14771,7 +14771,7 @@
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 2550,
-        "sourceUnit": 3431,
+        "sourceUnit": 3487,
         "src": "117:23:9",
         "symbolAliases": [],
         "unitAlias": ""
@@ -14795,7 +14795,7 @@
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
         "scope": 2550,
-        "sourceUnit": 3489,
+        "sourceUnit": 3545,
         "src": "208:31:9",
         "symbolAliases": [],
         "unitAlias": ""
@@ -14880,7 +14880,7 @@
               "id": 1733,
               "name": "IERC721",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 3430,
+              "referencedDeclaration": 3486,
               "src": "745:7:9"
             },
             "id": 1734,
@@ -14892,7 +14892,7 @@
               "id": 1735,
               "name": "IERC721Metadata",
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 3488,
+              "referencedDeclaration": 3544,
               "src": "754:15:9"
             },
             "id": 1736,
@@ -14913,8 +14913,8 @@
         "id": 2549,
         "linearizedBaseContracts": [
           2549,
-          3488,
-          3430,
+          3544,
+          3486,
           735,
           747,
           482
@@ -15470,10 +15470,10 @@
                                 "name": "IERC721",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 3430,
+                                "referencedDeclaration": 3486,
                                 "src": "1852:7:9",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_type$_t_contract$_IERC721_$3430_$",
+                                  "typeIdentifier": "t_type$_t_contract$_IERC721_$3486_$",
                                   "typeString": "type(contract IERC721)"
                                 }
                               }
@@ -15481,7 +15481,7 @@
                             "expression": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_type$_t_contract$_IERC721_$3430_$",
+                                  "typeIdentifier": "t_type$_t_contract$_IERC721_$3486_$",
                                   "typeString": "type(contract IERC721)"
                                 }
                               ],
@@ -15507,7 +15507,7 @@
                             "src": "1847:13:9",
                             "tryCall": false,
                             "typeDescriptions": {
-                              "typeIdentifier": "t_magic_meta_type_t_contract$_IERC721_$3430",
+                              "typeIdentifier": "t_magic_meta_type_t_contract$_IERC721_$3486",
                               "typeString": "type(contract IERC721)"
                             }
                           },
@@ -15564,10 +15564,10 @@
                                 "name": "IERC721Metadata",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 3488,
+                                "referencedDeclaration": 3544,
                                 "src": "1908:15:9",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_type$_t_contract$_IERC721Metadata_$3488_$",
+                                  "typeIdentifier": "t_type$_t_contract$_IERC721Metadata_$3544_$",
                                   "typeString": "type(contract IERC721Metadata)"
                                 }
                               }
@@ -15575,7 +15575,7 @@
                             "expression": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_type$_t_contract$_IERC721Metadata_$3488_$",
+                                  "typeIdentifier": "t_type$_t_contract$_IERC721Metadata_$3544_$",
                                   "typeString": "type(contract IERC721Metadata)"
                                 }
                               ],
@@ -15601,7 +15601,7 @@
                             "src": "1903:21:9",
                             "tryCall": false,
                             "typeDescriptions": {
-                              "typeIdentifier": "t_magic_meta_type_t_contract$_IERC721Metadata_$3488",
+                              "typeIdentifier": "t_magic_meta_type_t_contract$_IERC721Metadata_$3544",
                               "typeString": "type(contract IERC721Metadata)"
                             }
                           },
@@ -15819,7 +15819,7 @@
           },
           {
             "baseFunctions": [
-              3355
+              3411
             ],
             "body": {
               "id": 1835,
@@ -16122,7 +16122,7 @@
           },
           {
             "baseFunctions": [
-              3363
+              3419
             ],
             "body": {
               "id": 1863,
@@ -16475,7 +16475,7 @@
           },
           {
             "baseFunctions": [
-              3473
+              3529
             ],
             "body": {
               "id": 1873,
@@ -16570,7 +16570,7 @@
           },
           {
             "baseFunctions": [
-              3479
+              3535
             ],
             "body": {
               "id": 1883,
@@ -16665,7 +16665,7 @@
           },
           {
             "baseFunctions": [
-              3487
+              3543
             ],
             "body": {
               "id": 1925,
@@ -17332,7 +17332,7 @@
           },
           {
             "baseFunctions": [
-              3391
+              3447
             ],
             "body": {
               "id": 1977,
@@ -17937,7 +17937,7 @@
           },
           {
             "baseFunctions": [
-              3399
+              3455
             ],
             "body": {
               "id": 1998,
@@ -18198,7 +18198,7 @@
           },
           {
             "baseFunctions": [
-              3407
+              3463
             ],
             "body": {
               "id": 2015,
@@ -18406,7 +18406,7 @@
           },
           {
             "baseFunctions": [
-              3417
+              3473
             ],
             "body": {
               "id": 2033,
@@ -18608,7 +18608,7 @@
           },
           {
             "baseFunctions": [
-              3383
+              3439
             ],
             "body": {
               "id": 2060,
@@ -18972,7 +18972,7 @@
           },
           {
             "baseFunctions": [
-              3373
+              3429
             ],
             "body": {
               "id": 2079,
@@ -19213,7 +19213,7 @@
           },
           {
             "baseFunctions": [
-              3429
+              3485
             ],
             "body": {
               "id": 2109,
@@ -22060,7 +22060,7 @@
                       "name": "Transfer",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3329,
+                      "referencedDeclaration": 3385,
                       "src": "10183:8:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -22768,7 +22768,7 @@
                       "name": "Transfer",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3329,
+                      "referencedDeclaration": 3385,
                       "src": "10745:8:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -23645,7 +23645,7 @@
                       "name": "Transfer",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3329,
+                      "referencedDeclaration": 3385,
                       "src": "11672:8:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -23972,7 +23972,7 @@
                       "name": "Approval",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3338,
+                      "referencedDeclaration": 3394,
                       "src": "11935:8:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
@@ -24351,7 +24351,7 @@
                       "name": "ApprovalForAll",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 3347,
+                      "referencedDeclaration": 3403,
                       "src": "12382:14:9",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_address_$_t_bool_$returns$__$",
@@ -25458,7 +25458,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-05-29T19:19:34.772Z",
+  "updatedAt": "2023-05-31T21:26:21.610Z",
   "devdoc": {
     "details": "Implementation of https://eips.ethereum.org/EIPS/eip-721[ERC721] Non-Fungible Token Standard, including the Metadata extension, but not including the Enumerable extension, which is available separately as {ERC721Enumerable}.",
     "kind": "dev",

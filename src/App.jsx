@@ -9,11 +9,13 @@ import TxStatus from "./components/TxStatus";
 import RecentTransactions from "./components/RecentTransactions";
 import { useEffect } from "react";
 import { getAllNFTS, isWallectConnected } from "./Blockchain.services";
+import { useState } from "react";
 
 const App = () => {
   useEffect(async () => {
-    await isWallectConnected();
-    await getAllNFTS();
+    await isWallectConnected().then(() => {
+      getAllNFTS();
+    });
   }, []);
 
   return (
