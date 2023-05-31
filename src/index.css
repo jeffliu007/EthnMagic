@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #151c25;
+  background-image: radial-gradient(
+      at 0% 0%,
+      hsl(302, 25%, 18%) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 50% 0%, hsl(271, 39%, 30%) 0, transparent 50%),
+    radial-gradient(at 100% 0%, rgb(97, 27, 150) 0, transparent 50%);
+}
+
+.gradient-bg-header {
+  background-color: #151c25;
+  background-image: radial-gradient(
+      at 0% 0%,
+      hsl(302deg 25% 18%) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 50% 0%, hsl(271, 39%, 30%) 0, transparent 50%),
+    radial-gradient(at 100% 0%, rgb(123, 52, 177) 0, transparent 50%);
+}
+
+.gradient-bg-artworks {
+  background-color: #151c25;
+  background-image: radial-gradient(
+      at 0% 100%,
+      hsl(302, 25%, 18%) 0,
+      transparent 50%
+    ),
+    radial-gradient(at 0% 100%, rgb(43, 21, 60) 0, transparent 50%);
+}
+
+.gradient-bg-bottom {
+  background-color: #151c25;
+  background-image: radial-gradient(
+      at 0% 0%,
+      hsl(302, 25%, 18%) 0,
+      transparent 58%
+    ),
+    radial-gradient(at 0% 150%, rgb(43, 21, 60) 0, transparent 50%);
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.lds-dual-ring:before,
+.lds-dual-ring:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px solid #6c63ff;
+  animation: lds-dual-ring 1.5s linear infinite;
+}
+
+.lds-dual-ring:before {
+  animation-delay: 0.25s;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
